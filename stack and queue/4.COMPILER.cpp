@@ -45,23 +45,23 @@ else
      
  //(without stack)----------------------------------
      // match the pair
-    if(s[i]=='<')
-        c++;
-    else if(s[i]=='>')
-        c--;
-    // if c==0 means we have found the pair<>
-     if(c==0)
-        p=i+1; // store the position (length)
-   else if(c<0)
-    { 
+//     if(s[i]=='<')
+//         c++;
+//     else if(s[i]=='>')
+//         c--;
+//     // if c==0 means we have found the pair<>
+//      if(c==0)
+//         p=i+1; // store the position (length)
+//    else if(c<0)
+//     { 
         
-        break;
+//         break;
 
-    }
+//     }
     
-}
+// }
 
-cout<<p<<endl;
+// cout<<p<<endl;
  
    }
 
